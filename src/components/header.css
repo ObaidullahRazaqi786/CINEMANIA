@@ -1,0 +1,164 @@
+
+.container{
+    background-color: black;
+    color: white;
+}
+
+.logo-div{
+    color: rgba(17, 17, 17, 1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 170px;
+    height: 18px;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+}
+
+.logo-text{
+    height: 28px;
+    font-size: 20px;
+}
+
+nav{
+    padding: 12px 42px ;
+    height: 60px;
+    display:flex ;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.nav-link{
+    color: rgba(89, 89, 89, 1);
+    text-decoration: none;
+}
+
+.nav-link:hover , .nav-link:active 
+{
+    color: #F87719;
+}
+
+#menu{
+    display: none;
+    border: 0;
+}
+
+.menu-icon{
+    font-size: 30px;
+}
+
+#home{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#catalog{
+    font-size: 19px;
+    color: #F87719;
+}
+
+.DropdownMenu{
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 70px;
+    height: 54%;
+    width: 60%;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.close-dropdown{
+    width: 0;
+    position: absolute;
+}
+
+
+.btn{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.container{
+    background-image: url(../assets/header-bg.png);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container h1{
+    display: inline-block;
+    width: 385px;
+    height: 75px;
+    margin-top: 178px;
+    margin-left: 134px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.content{
+    width: 367px;
+    height: 160px;
+    margin-left: 140px;
+    margin-top: 30px ;
+}
+
+.btn1{
+    width: 139px;
+    height: 48px;
+    border: 0px;
+    border-radius: 74px;
+    padding: 12px 24px;
+    gap: 10px;
+    background-color: rgba(255, 194, 38, 1);
+}
+
+.btn1:hover{
+    border: 1px solid;
+    padding: 12px 24px ;
+    background-color: inherit;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.btn2{
+    width: 138px;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 74px;
+    padding: 12px 24px ;
+    background-color: inherit;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.btn2:hover{
+    border: 0px;
+    color: black;
+    background-color: rgba(255, 194, 38, 1);
+}
+
+.stars{
+    width: 136px;
+    height: 24px;
+    margin-left: 145px;
+    margin-top: 20px;
+    display: flex;
+    gap:6px;
+}
+
+.active{
+    color: #F87719;
+}

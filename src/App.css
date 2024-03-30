@@ -1,0 +1,56 @@
+#Light {
+  background-color: #f3ebf6;
+  color:rgba(40, 40, 40, 1);
+}
+
+#dark {
+  background-color: black;
+  color:rgba(183, 183, 183, 1);
+  
+  .num_btn{
+    color:grey;
+    background-color: inherit;
+  }
+  .logo-div{
+    color: white;
+  }
+  #nav-link{
+    color: rgba(183, 183, 183, 1) ;
+  }
+  #nav-link:hover{
+    color: #F87719;
+}
+  #nav-link:active{
+    color: #F87719;
+}
+
+ .search-logo{
+  color: white;
+  font-size: 25px;
+ }
+
+  .footer-text{
+    color: rgba(183, 183, 183, 1);
+  }
+
+  .num-1{
+    color: white;
+  }
+
+  .num_btn:hover{
+    border: 0px;
+    background-color: #F87719;
+    color: #f3ebf6;
+  }
+
+  .search-box{
+    border-color: white;
+    color: white;
+  }
+
+  #menu{
+    color: white;
+    background-color: inherit;
+  }
+
+}

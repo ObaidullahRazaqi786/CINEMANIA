@@ -1,0 +1,59 @@
+.label{
+    float: right;
+    right: 30px;
+    top: 25px ;
+    width: 65px;
+    height: 30px;
+    position: relative;
+    display: block;
+    background-color: orange;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .label::after{
+    content: "";
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 150px;
+    transition: 0.3s;
+  }
+  
+  #toggle{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  
+  #toggle:checked + .label::after{
+    left: 60px;
+    bottom: 3 px;
+    transform: translateX(-100%);
+  }
+  
+  .label img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    z-index: 100;
+  }
+  
+  #sun{
+    left: 40px;
+    top: 5px;
+    transition: 0.3s;
+  }
+  
+  #moon{
+    left: 5px;
+    top: 5px;
+    transition: 0.3s;
+  } 
+  
+  

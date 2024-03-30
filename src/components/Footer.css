@@ -1,0 +1,61 @@
+.numbers{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.num_btn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.num-1{
+    background-color: #F87719;
+    border: 0px;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.num_btn:hover,
+.num_btn.active{
+    border: 0px;
+    background-color: #F87719;
+}
+
+.back{
+    color: #B7B7B7;
+}
+
+.back:hover{
+    color: #F87719;
+}
+
+.next-back:hover{
+    color: #F87719;
+}
+
+.footer{
+    color: rgba(89, 89, 89, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.footer-heart{
+    color: #F87719;
+    align-content: center;
+}
+
+.footer a{
+    text-decoration: underline;
+    color:rgba(89, 89, 89, 1);
+}
